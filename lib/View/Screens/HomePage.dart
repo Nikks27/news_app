@@ -45,11 +45,7 @@ class HomePage extends StatelessWidget {
         ),
         body: TabBarView(
           children: [
-            buildApple(context),
-            buildStock(context),
-            buildBusiness(context),
-            buildHeadLine(context),
-            buildStock(context),
+            
           ],
         ),
       ),
