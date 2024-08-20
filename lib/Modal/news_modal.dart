@@ -16,10 +16,20 @@ class ArticlesModal {
   String author, title, description, url, urlToImage,content;
   SourceModal source;
 
-  ArticlesModal(this.author, this.title, this.description, this.url,this.source, this.urlToImage,this.content);
+  ArticlesModal(this.author, this.title, this.description, this.url,
+      this.source, this.urlToImage,this.content);
 
   factory ArticlesModal.fromJson(Map m1) {
-    return ArticlesModal(m1['author'] ?? 'Unknown Author', m1['title'] ?? '', m1['description'] ?? '', m1['url'] ?? '', SourceModal.fromJson(m1['source'] ?? '',), m1['urlToImage'] ?? '', m1['content'] ?? '',
+    return ArticlesModal(
+      m1['author'] ?? 'Unknown Author',
+      m1['title'] ?? '',
+      m1['description'] ?? '',
+      m1['url'] ?? '',
+      SourceModal.fromJson(
+        m1['source'] ?? '',
+      ),
+      m1['urlToImage'] ?? '',
+      m1['content'] ?? '',
     );
   }
 }

@@ -13,17 +13,7 @@ class SplashScreen extends StatelessWidget {
     },);
     return Scaffold(backgroundColor: Colors.black,
       body: Center(
-        child: Container(
-          height:700,
-          width:400,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage(
-                'assets/images/news logo 2.png'
-              ),
-            ),
-          ),
-        ),
+        child: Image.asset('assets/news-time-high-resolution-logo-white.png'),
       ),
     );
   }

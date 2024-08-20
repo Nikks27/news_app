@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'View/Screens/HomePage.dart';
+import 'View/Screens/detailscreen.dart';
 import 'View/Screens/splashscreen.dart';
 
 void main()
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       getPages: [
         GetPage(name: '/', page: () => SplashScreen(),),
-        GetPage(name: '/home', page: () => HomePage()),
+        GetPage(name: '/home', page: () => HomeScreen(),),
+        GetPage(name: '/detail', page: () => DetailScreen(),),
 
       ],
     );
