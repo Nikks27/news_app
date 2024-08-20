@@ -1,16 +1,23 @@
 # news_app
 
-A new Flutter project.
+<h1 align="center"> 1.News App</h1>
 
-## Getting Started
+<h1 align="left"></h1>
 
-This project is a starting point for a Flutter application.
+<div align ="center">
 
-A few resources to get you started if this is your first Flutter project:
+  <img src = "https://github.com/user-attachments/assets/6a43f0cf-e0c9-4309-84c8-cf6c0ecfd0a1" height ="550">
+   <img src = "https://github.com/user-attachments/assets/f59f884e-5a16-454b-a5b8-81f761f3b97d" height ="550">
+    <img src = "https://github.com/user-attachments/assets/72c88e37-b046-489f-8633-9dd88df43208" height ="550">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+https://github.com/user-attachments/assets/a983348d-0b18-478f-a417-87d021fee97f
+
+
+
+
+
+
+</div>
